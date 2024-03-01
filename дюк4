@@ -1,0 +1,23 @@
+import math
+
+# ввод значений А
+print("Введите положительные вещественное число А:")
+A = float(input())
+
+#Вычисление целой части
+integer_part = int(A)
+
+# Вычисление дробной части 
+fractional_part = A - integer_part
+
+# Вычисление арифметического квадратного корня
+sqrt_value = math.sqrt(A)
+
+# Вычисление остатка от деления на 5
+remainder = A % 5
+
+# Вывод результатов
+print("Целая часть числа А:", integer_part)
+print("Дробная часть числа A:", fractional_part)
+print("Арифметический квадратный корень числа A:", sqrt_value)
+print("Остаток от деления числа A на 5:", remainder)
